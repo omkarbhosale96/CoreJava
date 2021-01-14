@@ -1,0 +1,26 @@
+package performHashMap;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MyMap {
+
+	public static void main(String[] args) {
+	HashMap<Character,Integer> hm=new HashMap<>();
+	
+	hm.put('A', 44);
+	hm.put('B', 20);
+	hm.put('C', 67);
+	hm.put('D', 12);
+	hm.put('E', 95);
+	hm.put('F', 52);
+	
+	for(Map.Entry<Character, Integer> hm1: hm.entrySet())
+	{
+		System.out.println(hm1.getKey()+" "+hm1.getValue());
+	}
+	
+	
+	
+}
+}
